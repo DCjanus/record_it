@@ -1,0 +1,19 @@
+{
+  "name": "record_it",
+  "version": "0.1.0",
+  "description": "Record something that I want to be remembered",
+  "main": "index.js",
+  "repository": "https://github.com/DCjanus/record_it",
+  "author": "DCjanus <DCjanus@dcjanus.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@swc/cli": "^0.1.57",
+    "@swc/core": "^1.2.174",
+    "@types/webextension-polyfill": "^0.8.3",
+    "web-ext": "^6.8.0"
+  },
+  "dependencies": {
+    "webextension-polyfill": "^0.9.0"
+  }
+}

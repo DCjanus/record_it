@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "record_it",
+  "description": "Record something that I want to be remembered",
+  "version": "0.1.0",
+  "permissions": [
+    "https://api.bilibili.com/"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://www.bilibili.com/*",
+        "*://t.bilibili.com/*"
+      ],
+      "js": [
+        "bilibili.js"
+      ],
+      "run_at": "document_end"
+    }
+  ]
+}
